@@ -186,8 +186,7 @@ all_trips %>%
   arrange(member_casual, day_of_week)	 %>% 
   ggplot(aes(x = day_of_week, y = average_duration, fill = member_casual)) +
   geom_col(position = "dodge")
-
-<object data="{{ post.file_document_path }}" width="1000" height="1000" type='application/file://appserver/UsersDir/User%20Profiles/rboateng/Documents/Citi%20Bikes/average_duration.pdf'/>
+<a href="pdfs/average_duration.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 #=================================================
 # STEP 5: EXPORT SUMMARY FILE FOR FURTHER ANALYSIS
 #=================================================
